@@ -1,0 +1,9 @@
+.NavigationItems {
+    /* margin-top: 55px; */
+}
+
+@media (min-width: 450px) {
+    .NavigationItems {
+        /* margin-top: 15px; */
+    }
+}

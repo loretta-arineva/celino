@@ -1,0 +1,28 @@
+.Intro {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 40px;
+    background-color: rgb(238, 175, 59);
+    box-sizing: border-box;
+}
+
+.Intro .subtitle {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Intro .about__title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.Intro .description {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}

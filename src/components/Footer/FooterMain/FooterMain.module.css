@@ -1,0 +1,55 @@
+.FooterMain {
+    color: white;
+    padding: 10px 30px;
+    line-height: 1.7;
+
+}
+
+.FooterMain h3 {
+    font-size: 1.8rem;
+    margin: 50px 0 30px 0;
+    text-align: center;
+}
+
+.FooterMain h3 span {
+    color: rgb(238, 175, 59);
+}
+
+.footer__about p {
+    color: #ffffff;
+} 
+
+
+.footer__notification {
+    margin: 35px 0;
+}
+
+.footer__notification p:first-of-type {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.subscribe__btn, .newsletter__input input {
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.newsletter__input input {
+    color: white;
+    background-color: #000000a9;
+    border: 1px solid #757575;
+    margin-bottom: 25px;
+}
+
+.subscribe__btn {
+    text-transform: uppercase;
+    background-color: rgb(238, 175, 59);
+    border: none;
+    margin: 0 auto;
+}
+

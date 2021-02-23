@@ -1,0 +1,33 @@
+.Hamburger {
+    position: relative;
+}
+.container {
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+.Hamburger, .Hamburger::before, .Hamburger::after {
+    background-color: white;
+    width: 28px;
+    height: 2px;
+}
+
+.Hamburger::before, .Hamburger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.Hamburger::before {
+    top: -9px;
+}
+
+.Hamburger::after {
+    bottom: -9px;
+}

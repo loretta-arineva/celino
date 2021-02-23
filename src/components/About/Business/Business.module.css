@@ -1,0 +1,21 @@
+.Business {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 40px;
+        background-color: rgba(255, 255, 255, 0.829);
+        box-sizing: border-box;
+        text-align: center;
+}
+
+.Business .business__title {
+    margin: 25px 0 65px 0;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.Business .subtitle {
+    text-transform: uppercase;
+}

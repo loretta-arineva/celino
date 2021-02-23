@@ -1,0 +1,13 @@
+.About {
+    
+    position: relative;
+}
+
+.about__line {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    background-color: white;
+    height: 80px;
+    width: 2px;
+}

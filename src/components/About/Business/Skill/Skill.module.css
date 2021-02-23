@@ -1,0 +1,20 @@
+.Skill {
+    margin-bottom: 50px;
+}
+
+.icons {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: rgb(238, 175, 59);
+}
+
+.Skill h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.skill__description p {
+    line-height: 1.5;
+    color: #757575;
+}

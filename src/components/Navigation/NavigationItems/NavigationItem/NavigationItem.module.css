@@ -1,0 +1,27 @@
+.NavigationItem {
+    list-style-type: none;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+    font-size: 2.2rem;
+}
+
+.NavigationItem a:visited, .NavigationItem a  {
+    color: #ffadad;
+
+}
+
+.NavigationItem a.active, .NavigationItem:hover a {
+    color: #ffc6ff;
+    text-decoration: line-through;
+}
+
+@media (min-width: 450px) {
+    .NavigationItem {
+        width: 100%;
+        text-align: center;
+    }
+}
